@@ -128,6 +128,14 @@ h3,
 	margin-right: 0;
 }
 /*main*/
+#pic {
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	border-radius: 50px;
+	margin:10px;
+}
+
 #main-container {
 	padding-top: 130px;
 }
@@ -139,6 +147,11 @@ h3,
 	background: #fff;
 	border: 1px solid #ddd;
 }
+
+.main-section p {
+	text-align: justify;
+}
+
 /*porfolio page*/
 .work {
 	position: relative;
@@ -207,4 +220,66 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+@media screen and (max-width: 980px){
+
+	body {
+		width: 100%;
+		
+	}
+
+	#masthead {
+		width: 100%;
+	}
+
+	.container {
+		width:60%;
+	} 
+
+	#logo {
+		width:100%;
+	}
+	#main-container {
+		width:100%;
+		
+	}
+
+	.main-section {
+		width: 100%;
+	}
+	.sidebar {
+		width: 37%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+
+
+	#masthead {
+		width: 100%;
+	}
+
+	.container {
+
+	}
+
+	.main-section {
+		width: 100%;
+		padding: 30px;
+		margin: 100px;
+		margin-right: 100px;
+
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+
+	.main-section {
+		width:100%;
+		margin: 100px;
+	}
+
 }
